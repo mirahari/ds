@@ -1025,7 +1025,16 @@ blockquote {
 }
 
 .credits {
-  font-size: 13px;
+  font-size: 11px;
+  color: #b3b3b3;
+}
+
+.credits a{
+  color: #b3b3b3;
+}
+
+.credits a:hover{
+  color: #72bafb;
 }
 
 /** Width between 1200x to 0
