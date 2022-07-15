@@ -19,11 +19,126 @@
 </head>
 
 <body>
+
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link  scrollto" href="#services ">Skills</a></li>
+          <li><a class="nav-link  scrollto" href="#portfolio ">Portfolio</a></li>
+          <li><a class="nav-link  scrollto" href="#footer">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+    </div>
+  </header>
+
+  <div id="hero" class="home">
+    <div class="container">
+      <div class="hero-content">
+        <h1>I'm <span class="typed" data-typed-items="Amirah, a Data Scientist, a Data Analyst"></span></h1>
+        <p>Translating data into valuable insights</p>
+      </div>
+    </div>
+  </div>
+
   <main id="main">
+
+    <div id="about" class="paddsection">
+      <div class="container">
+        <div class="row justify-content-between">
+
+          <div class="col-lg-4 ">
+            <div class="div-img-bg">
+              <div class="about-img">
+                <img src="assets/img/me.jpg" class="img-responsive" alt="me">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="about-descr">
+              <p class="p-heading">Hello there!</p>
+              <p class="separator">My name is Amirah. I'm currently a Master's student in Applied Statistics looking for
+                a data science/analytical role. This portfolio is aiming to utilise my programming skills and analytical
+                ability to tackle real world problems. In my free time, I enjoy journaling, watching movies, and learning new languages.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="services">
+      <div class="container">
+        <div class="section-title text-center">
+          <br><br><h2>SKILLS</h2>
+        </div>
+
+        <div class="services-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="services-block">
+                <img src="assets/img/skills/python.png" height="45">>
+                <span>PYTHON</span>
+                <p class="separator">NumPy, SciPy, pandas, plotly, matplotlib, seaborn, scikit-learn</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <img src="assets/img/skills/r.png" height="45">>
+                <span>R</span>
+                <p class="separator">ggplot2, dplyr, tidyr</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <img src="assets/img/skills/sql-server.png" height="45">>
+                <span>SQL</span>
+                <p class="separator">Modifying and retrieving information
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <img src="assets/img/skills/dashboard.png" height="45">>
+                <span>VISUALISATION</span>
+                <p class="separator">Tableau </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <img src="assets/img/skills/arrow.png" height="45">>
+                <span>TIME SERIES ANALYSIS</span>
+                <p class="separator">ARMA, ARIMA/SARIMA</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <img src="assets/img/skills/ml.png" height="45">>
+                <span>MACHINE LEARNING</span>
+                <p class="separator">Supervised and unsupervised ML</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+
     <div id="portfolio" class="paddsection">
       <div class="container">
         <div class="section-title text-center">
-          <h2>Amirah's Portfolio</h2>
+          <h2>Portfolio</h2>
         </div>
       </div>
 
@@ -50,7 +165,7 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-r">
-            <img src="assets/img/portfolio/ha.jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/heart.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Heart Disease</h4>
               <p>EDA, Classification</p>
