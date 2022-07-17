@@ -663,6 +663,12 @@ p {
   text-align: left;
 }
 
+#portfolio .portfolio-item .portfolio-info .preview-link, #portfolio .portfolio-item .portfolio-info .details-link {
+  position: absolute;
+  right: 55px;
+  top: 270px;
+  height: 30px;
+}
 
 /*--------------------------------------------------------------
 # New portfolio box
