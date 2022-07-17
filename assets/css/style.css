@@ -699,40 +699,14 @@ p {
   background: #f9f9f9;
   padding: 20px;
   width: 340px;
-  height: 450px;
+  height: 440px;
   border: 1px solid #eee;
-  /*box-shadow: 5px 5px 5px 2px #e0e1e8;*/
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .portfolio-box:hover {
   transition: all 0.5s ease-in-out 0.1s;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
-}
-/*.accent-button a {
-  font-size: 13px;
-  font-weight: 600;
-  color: #fff;
-  text-transform: capitalize;
-  background-color: #4bc7cf;
-  display: inline-block;
-  height: 44px;
-  line-height: 44px;
-  padding: 0px 25px;
-  letter-spacing: 0.25px;
-  text-decoration: none;
-  transition: all 0.3s;
-}
-
-.accent-button a:hover {
-  background-color: #008080;
-}
-
-.portfolio-box img {
-  border-radius: 5px 5px 0 0;
-  padding: 0px;
 }
 
 /*--------------------------------------------------------------
