@@ -1,13 +1,4 @@
-/**
-* Template Name: Folio - v4.7.0
-* Template URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   background: #fff;
   color: #898989;
@@ -660,7 +651,7 @@ p {
 #portfolio .portfolio-item .portfolio-info h5 {
   font-size: 15px;
   margin-bottom: 15px;
-  color: #008080;
+  color: #7a7a7a;
 }
 
 #portfolio .portfolio-item .portfolio-info p {
@@ -672,24 +663,6 @@ p {
   text-align: left;
 }
 
-/*#portfolio .portfolio-item .portfolio-info .preview-link, #portfolio .portfolio-item .portfolio-info .details-link {
-  position: absolute;
-  right: 40px;
-  font-size: 24px;
-  top: calc(50% - 18px);
-  color: #4bc7cf;
-}
-
-#portfolio .portfolio-item .portfolio-info .preview-link:hover, #portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #4bc7cf;
-}
-#portfolio .portfolio-item .portfolio-info .details-link {
-  right: 10px;
-}
-#portfolio .portfolio-item:hover .portfolio-info {
-  opacity: 1;
-  bottom: 20px;
-}*/
 
 /*--------------------------------------------------------------
 # New portfolio box
