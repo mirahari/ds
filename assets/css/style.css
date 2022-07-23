@@ -34,11 +34,9 @@ h1, h2, h3, h4, h5, h6 {
   padding: 60px 0;
   overflow: hidden;
 }
-
 .section-title {
-  padding-bottom: 80px;
+  padding-bottom: 70px;
 }
-
 .section-title h2 {
   font-size: 14px;
   font-weight: 500;
@@ -50,16 +48,14 @@ h1, h2, h3, h4, h5, h6 {
   color: #81949d;
   font-family: "Poppins", sans-serif;
 }
-
 .section-title h2::after {
   content: "";
   width: 60px;
   height: 1px;
   display: inline-block;
-  background: #4bc7cf;
+  background: #00ced1;
   margin: 4px 10px;
 }
-
 .section-title p {
   margin: 0;
   margin: 0;
@@ -76,14 +72,12 @@ h1, h2, h3, h4, h5, h6 {
 .portfolio {
   padding: 80px 0;
 }
-
 .filter-box {
   display: block;
   position: absolute;
   top: 170px;
   right: 50px;
 }
-
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 0 35px 0;
@@ -91,7 +85,6 @@ h1, h2, h3, h4, h5, h6 {
   text-align: right;
   width: fit-content;
 }
-
 .portfolio #portfolio-flters li {
   cursor: pointer;
   margin: 0 15px 15px 0;
@@ -103,12 +96,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 510;
   text-transform: uppercase;
   transition: all 0.3s ease-in-out;
-
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   transition: 0.3s;
   color: #414e54;
-  border-bottom: 1.5px solid #4bc7cf;
+  border-bottom: 1.5px solid #00ced1;
 }
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
@@ -119,11 +111,11 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   position: relative;
   text-align: center;
-  opacity: 0.9;
+  border: 1px solid rgba(0, 0, 0, 0.05);
 }
 .portfolio .portfolio-wrap:hover {
   box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.16);
-  opacity: 1;
+  border: 1px solid rgba(0, 0, 0, 0.08);
 }
 .portfolio .portfolio-item {
   position: relative;
@@ -134,63 +126,38 @@ h1, h2, h3, h4, h5, h6 {
 .portfolio .portfolio-item figure {
   background: #fff;
   overflow: hidden;
-  height: 240px;
+  height: 220px;
   position: relative;
   border-radius: 4px 4px 0 0;
   margin: 0;
+  transition: 0.3s;
 }
-.portfolio .portfolio-item figure .link-preview, .portfolio .portfolio-item figure .link-details {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  line-height: 0;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  background: #fff;
-  border-radius: 50%;
-  transition: all 0.2s linear;
-  overflow: hidden;
-  font-size: 20px;
+.portfolio .portfolio-item .portfolio-wrap:hover figure {
+  opacity: 0.9;
 }
 .portfolio .portfolio-item .portfolio-info {
   background: #fff;
   text-align: left;
-  padding: 25px 20px;
-  height: 130px;
+  padding: 20px;
+  height: 150px;
   border-radius: 0 0 3px 3px;
-}
-.text-on-img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  background: #fff;
-  font-size: 20px;
-  font-weight: 700;
-  color: #000; /* Fallback for older browsers */
-  color: rgba(0, 0, 0, 0.5);
-  text-align: center;
-  padding: 10px 0;
-  opacity: 0.8;
   transition: 0.3s;
-  text-transform: uppercase;
 }
-/*
-.portfolio .portfolio-wrap:hover .text-on-img {
-  color: #414e54;
-}*/
-.portfolio .portfolio-wrap h4 {
-  font-size: 14px;
-  line-height: 1px;
-  font-weight: 700;
-  margin-bottom: 18px;
-  padding-bottom: 0;
+.portfolio .portfolio-wrap h3 {
+  font-size: 12px;
+  font-weight: 800;
   color: #81949d;
   text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+}
+.portfolio .portfolio-wrap h4 {
+  font-size: 18px;
+  line-height: 1px;
+  font-weight: 700;
+  margin: 20px 0;
+  color: #414e54;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
   transition: 0.3s;
 }
 .portfolio .portfolio-item .portfolio-info p {
@@ -198,7 +165,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   color: #292929;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 
@@ -221,7 +188,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 #footer .credits a:hover {
-  border-bottom: 1px solid #4bc7cf;
+  border-bottom: 1px solid #00ced1;
 }
 #footer .social-links {
   padding-right: 30px;
