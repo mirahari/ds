@@ -178,7 +178,7 @@ hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
 input:focus, textarea:focus, *:required:focus{border-color:#00ced1;}
 .overlay{color:#FFFFFF; background-color:inherit;}
-.overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
+.overlay::after{color:inherit; background-color:rgba(0,0,0,.4);}
 .overlay:hover::after{background-color:rgba(0,0,0,.6);}
 
 .btn, .btn.inverse:hover{color:#FFFFFF; background-color:#00ced1; border-color:#00ced1;}
