@@ -74,12 +74,14 @@ line-height: 1px; font-weight: 700; color: #fff; padding: 10px 0 40px 0; }
 --------------------------------------------------------------------------------------------------------------- */
 #copyright{padding:40px 0; background: #f2f4f5; font-family: "Poppins", sans-serif; font-size: 13px;}
 #copyright *{margin:0; padding:0;}
-#copyright .credits {margin-bottom: 20px; text-align:center;}
+#copyright .credits {margin-bottom: 20px; text-align:center; color: #acacac;}
+#copyright .credits a {color: #acacac;}
+#copyright .credits a:hover {color: #81949d;}
 #copyright .socials {text-align:center;}
-#copyright .socials a {font-size: 18px; display: inline-block; color: #81949d; line-height: 1;
-  margin: 0 10px; padding: 10px; border-radius: 50%; text-align: center; border: 1px solid #81949d;
+#copyright .socials a {font-size: 18px; display: inline-block; color: #acacac; line-height: 1;
+  margin: 0 10px; padding: 10px; border-radius: 50%; text-align: center; border: 1px solid #acacac;
   width: 40px; height: 40px;}
-#copyright .socials a:hover {color: #414e54;}
+#copyright .socials a:hover {color: #81949d;}
 
 /* Transition Fade
 This gives a smooth transition to "ALL" elements used in the layout - other than the navigation form used in mobile devices
